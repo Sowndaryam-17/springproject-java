@@ -1,0 +1,312 @@
+@CHARSET "ISO-8859-1";
+
+
+
+  
+  section#contact {
+    background-color: #222;
+    background-image: url('http://artdnaswitchbd.com/componants/images/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section {
+    padding: 30px 0PX;
+}
+section#contact .section-heading {
+    color: white;
+}
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+section#contact .form-group input.form-control {
+    height: auto;
+}
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+.gellary_bg_none img{
+	width: 100%;
+	height: 250px;
+}
+section#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+section#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+section#contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+}
+section#contact .text-danger {
+    color: #000;
+}
+
+.about_our_company{
+    text-align: center;
+}
+.about_our_company h1{
+    font-size: 25px;
+}
+.titleline-icon {
+    position: relative;
+    max-width: 100px;
+    border-top: 4px double #F99700;
+    margin: 20px auto 20px;
+}
+.titleline-icon:after {
+    position: absolute;
+    top: -11px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-family: 'FontAwesome';
+    content: "\f141";
+    font-size: 20px;
+    line-height: 1;
+    color: #F99700;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+    height: 20px;
+    background: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*!Don't remove this!
+ * jQuery DCalendar and DCalendar Picker plugin styles
+ * 
+ * Author: Dionlee Uy
+ * Email: dionleeuy@gmail.com
+ *
+ * Date: Mon Mar 2 2013
+ */
+.calendar {
+    position: relative;
+	font-family: 'Century Gothic','Segoe UI', Calibri, Arial;
+	font-size: 12px;
+	border-collapse: collapse;
+	margin: 0; padding: 0;
+	z-index: 4;
+	border:1px solid rgba(0,0,0,0.08);
+	width: 250px;
+	color: #000;
+	text-align: center;
+	background-color: #FFF;
+}
+.calendar th,
+.calendar td {
+	text-align: center;
+	-webki-ttransition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.calendar th:first-child,
+.calendar td:first-child {
+	margin-left: 5px;
+}
+.calendar span {
+	padding: 6px 4px; 
+	display: block;
+}
+.calendar .month {
+	padding: 15px;
+}
+
+.calendar .pMDate, .calendar .nMDate { color: #AAA; }
+.calendar .date, .calendar .pMDate, .calendar .nMDate, .calendar .month { cursor: pointer; }
+.calendar .date:hover, .calendar .pMDate:hover, .calendar .nMDate:hover, .calendar .month:hover { background-color: #E2E2E2; }
+.calendar .date:active, .calendar .pMDate:active, .calendar .nMDate:active, .calendar .month:active { background-color: #22A7F0; color: #FFF; }
+.calendar .selected {
+	background-color: #22A7F0 !important;
+	color: #FFF !important;
+}
+
+.calendar tr:first-child th {
+	background-color: #FFF;
+	padding: 4px;
+	padding-top: 8px;
+	font-size: 14px;
+}
+.calendar tr:first-child th { cursor: pointer; color:#000; }
+.calendar tr:first-child th:hover { color:#22A7F0; }
+.calendar tr:first-child th:active { color: #22A7F0; }
+.calendar thead tr:nth-child(2) th { color: #555; padding: 8px 3px; }
+.calendar #prev, .calendar #next {
+	font-family: 'Times New Roman';
+	font-size: 20px;
+	padding: 0;
+}
+.calendar #today {
+	text-align: center; cursor: pointer;
+	color: #22A7F0; padding: 10px 6px;
+}
+.calendar #today:hover { color: #80A7DD; }
+.calendar #today:active { color: #000; }
+.calendar #currDay { color:#22A7F0; }
+.datepicker {
+	background: #ffffff url('https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-128.png') no-repeat right top;
+	background-size: 30px 30px;;
+}
+
+
+
+
+
+
+
+
+
+html {
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+h5 {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+    margin: 0;
+}
+
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1em;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.28571429em;
+    font-weight: 700;
+    line-height: 1.2857em;
+}
+
+.card-text {
+    clear: both;
+    margin-top: .5em;
+    color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+    font-size: 1em;
+    position: static;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    padding: .75em 1em;
+    color: rgba(0, 0, 0, .4);
+    border-top: 1px solid rgba(0, 0, 0, .05) !important;
+    background: #fff;
+}
+
+.card-inverse .btn {
+    border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.profile {
+    position: absolute;
+    top: -12px;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-inline {
+    position: relative;
+    top: 0;
+    display: inline-block;
+}
+
+.profile-inline ~ .card-title {
+    display: inline-block;
+    margin-left: 4px;
+    vertical-align: top;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.col-sm-5 {
+	padding-left:100px;
+    width: 20.66666667%; 
+}
+
+
+.meta {
+    font-size: 1em;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+    color: rgba(0, 0, 0, .87);
+}
